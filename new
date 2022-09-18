@@ -1,0 +1,18 @@
+#!/bin/bash
+POST_NAME=${1}
+DIR="./content/posts/${POST_NAME}"
+
+if [[ -z "$POST_NAME" ]];then
+	echo "-------> empty post name!"
+	exit
+fi
+
+if [[ -d "$DIR" ]];then
+	echo "-------> already exist!"
+	exit
+fi
+
+
+hugo new posts/${POST_NAME}.md
+mkdir ${DIR}
+mv ${DIR}.md ${DIR}/index.md

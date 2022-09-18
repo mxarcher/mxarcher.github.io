@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mxarcherlee
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blog.mxarcher.com
+  * I am mxarcherlee (https://keybase.io/mxarcherlee) on keybase.
+  * I have a public key ASCrVgxWoVbSP5VdPxDNyb0Gk5ZX5aMVaqS71U6yFi2Hygo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120bb6bd2201e60341589cca5f47f07578ca9b3c7926e86c1dde52445141f265f360a",
+      "host": "keybase.io",
+      "kid": "0120ab560c56a156d23f955d3f10cdc9bd06939657e5a3156aa4bbd54eb2162d87ca0a",
+      "uid": "f5b57ba862161e78b42f01d24a242c19",
+      "username": "mxarcherlee"
+    },
+    "merkle_root": {
+      "ctime": 1661945374,
+      "hash": "cc76a6564b652b7dbb65796fe2d510313a5ae1341c4ded88aafe5ffc102f78168ef4feadc0f85bb4beb4d15796145c53db360f3fcbfb550baee3879778b6bc91",
+      "hash_meta": "5d0c43948e8a33d79bbdb65269c9b14d13cf7cb92d9aaabaf351fbf82372d611",
+      "seqno": 23116194
+    },
+    "service": {
+      "entropy": "gV0JVUqIzLMgacRZ0cbzwcD/",
+      "hostname": "blog.mxarcher.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1661945430,
+  "expire_in": 504576000,
+  "prev": "2cbaec73f6aa942111033877073b24b5537becca5852b5ff41edfc8372b4c9ca",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgq1YMVqFW0j+VXT8Qzcm9BpOWV+WjFWqku9VOshYth8oKp3BheWxvYWTESpcCLcQgLLrsc/aqlCERAzh3BzsktVN77MpYUrX/Qe38g3K0ycrEIG4wNpSbAEzIUlPdbZz8p7BDVmetL1Fw4ERj2hneeuPDAgHCo3NpZ8RAd5acC3yK+A030sKwrY0Uk1Cx7gGrSZlNyhK8tuOPDrzWoQ9Z5EmRx3n0nJzObEbJiuQfGS8MwpJJFBuB20BoCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICm9QNxzUtFx19sC011jx5uppu/pC/IXVjVXtelLmwbjo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mxarcherlee
+
+==================================================================
