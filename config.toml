@@ -41,6 +41,7 @@ googleAnalytics = ""
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 # 菜单配置
 [languages.zh-cn.menu]
+
 [[languages.zh-cn.menu.main]]
 identifier = "posts"
 # 父级菜单项的标识符 (identifier) since v0.2.14
@@ -53,6 +54,7 @@ name = "文章"
 url = "/posts/"
 title = ""
 weight = 1
+
 [[languages.zh-cn.menu.main]]
 identifier = "categories"
 pre = "<i class='fa-solid fa-th fa-fw fa-sm'></i>"
@@ -61,6 +63,7 @@ name = "分类"
 url = "/categories/"
 title = ""
 weight = 2
+
 [[languages.zh-cn.menu.main]]
 identifier = "tags"
 pre = "<i class='fa-solid fa-tags fa-fw fa-sm'></i>"
@@ -69,6 +72,7 @@ name = "标签"
 url = "/tags/"
 title = ""
 weight = 3
+
 [[languages.zh-cn.menu.main]]
 identifier = "about"
 pre = "<i class='fa-solid fa-info-circle fa-fw fa-sm'></i>"
@@ -77,8 +81,7 @@ name = "关于"
 url = "/about/"
 title = ""
 weight = 4
-[languages.zh-cn.menu.main.params]
-class = "d-none-desktop text-center"
+
 [languages.zh-cn.params]
 # 网站描述
 description = "MXArcher's Blog"
@@ -954,12 +957,12 @@ isHTML = false
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [permalinks]
 posts = "/p/:slug/"
-page = "/:slug/"
+pages = "/:slug/"
 
 # 用于 Hugo 输出文档的设置
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-page = ["HTML", "MarkDown"]
+pages = ["HTML", "MarkDown"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 taxonomyTerm = ["HTML"]

@@ -15,4 +15,4 @@ fi
 
 hugo new posts/${POST_NAME}.md
 mkdir ${DIR}
-mv ${DIR}.md ${DIR}/index.md
+mv ${DIR}.md ${DIR}/index.zh-cn.md
