@@ -134,7 +134,7 @@ enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
 gravatarEmail = "hi@mxarcher.com"
 # 主页显示头像的 URL
-avatarURL = "/img/avatar.png"
+avatarURL = ""
 # 主页显示的网站标题 (支持 HTML 格式)
 title = "MXArcher's Blog"
 # 主页显示的网站副标题
@@ -212,7 +212,7 @@ Thingiverse = ""
 Devto = ""
 Gitea = ""
 XMPP = ""
-Matrix = "mxarcher"
+Matrix = "@mxarcher:matrix.org"
 Bilibili = ""
 # ORCID, ... , CSDN FixIt 0.2.13 | NEW
 ORCID = ""
@@ -653,20 +653,22 @@ commentCount = true
 lightgallery = false
 # Giscus comments config (https://giscus.app/) since v0.2.14
 # Giscus 评论系统设置 (https://giscus.app/) since v0.2.14
-# [params.page.comment.giscus]
-# enable = true
-# repo = "mxarcher/mxarcher.github.io"
-# repoId = "R_kgDOHshDDQ"
-# category = "Announcements"
-# categoryId = "DIC_kwDOHshDDc4CQYgY"
-# mapping = "pathname"
-# term = ""
-# reactionsEnabled = "1"
-# emitMetadata = "0"
-# inputPosition = "bottom"             # top, bottom
-# lightTheme = "light"
-# darkTheme = "dark_dimmed"
-# lazyLoad = false
+
+[params.page.comment.giscus]
+enable = true
+repo = "mxarcher/mxarcher.github.io"
+repoId = "R_kgDOIBNZKg"
+category = "Announcements"
+categoryId = "DIC_kwDOIBNZKs4CRf8F"
+mapping = "pathname"
+term = ""
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"                # top, bottom
+lightTheme = "light"
+darkTheme = "dark_dimmed"
+data-lang = "zh-CN"
+lazyLoad = true
 # Third-party library config
 # 第三方库配置
 [params.page.library]
@@ -876,8 +878,8 @@ enable = false
 type = "vConsole"
 [params.reward]
 enable = true
-wechat = "/images/wechat.png"
-alipay = "/images/alipay.png"
+wechat = ""
+alipay = ""
 
 
 # Markup related configuration in Hugo
