@@ -3,7 +3,7 @@ title = "Windows Terminal 右键设置"
 subtitle = ""
 date = "2022-09-19T00:07:03+08:00"
 description = ""
-keywords = []
+tags = ["Windows Terminal"]
 comment = false
 draft = false
 +++

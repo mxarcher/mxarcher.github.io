@@ -316,7 +316,7 @@ author = true
 since = 2022
 # Site creation time since v0.2.14
 # 网站创立时间 since v0.2.14
-siteTime = '2022-09-11T14:01:29+08:00'
+siteTime = '2022-09-18T22:09:46+08:00'
 # whether to show total word count of site content since v0.2.14
 # 是否显示网站内容总字数 since v0.2.14
 wordCount = true

@@ -3,7 +3,7 @@ title = "使用vscode+docker作为开发环境"
 subtitle = ""
 date = "2022-09-18T22:12:11+08:00"
 description = ""
-keywords = ["vscode","docker","archlinux"]
+tags = ["vscode","docker","archlinux"]
 comment = false
 draft = false
 +++
