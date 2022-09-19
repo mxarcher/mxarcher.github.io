@@ -46,9 +46,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo \
-            --minify \
-            --gc \
+          hugo
       
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
