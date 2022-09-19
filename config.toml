@@ -660,14 +660,13 @@ repo = "mxarcher/mxarcher.github.io"
 repoId = "R_kgDOIBNZKg"
 category = "Announcements"
 categoryId = "DIC_kwDOIBNZKs4CRf8F"
-mapping = "pathname"
+mapping = "title"
 term = ""
 reactionsEnabled = "1"
 emitMetadata = "0"
 inputPosition = "top"                # top, bottom
 lightTheme = "light"
 darkTheme = "dark_dimmed"
-data-lang = "zh-CN"
 lazyLoad = true
 # Third-party library config
 # 第三方库配置

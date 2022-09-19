@@ -4,6 +4,6 @@ subtitle = ""
 date = "{{ .Date }}"
 description = ""
 keywords = []
-comment = false
+comment = true
 draft = true
 +++
