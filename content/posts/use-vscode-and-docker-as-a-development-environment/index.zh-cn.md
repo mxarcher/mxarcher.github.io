@@ -1,16 +1,15 @@
 +++
 title = "使用 vscode + docker 作为开发环境"
-subtitle = ""
 date = "2022-09-18T22:12:11+08:00"
-description = ""
 tags = ["vscode","docker","archlinux"]
-comment = true
-draft = false
+categories = []
 +++
 
-{{< admonition type=note title="Note" open=true >}} 
+{{< admonition tip "前言" >}} 
 本文只是对 [使用Docker作为C++开发环境：适用于CLion与VSCode的配置 - 灰格猫的编程日记 (graueneko.com)](https://graueneko.com/archives/64/) 做了适合自己的定制
 {{< /admonition >}}
+
+<!--more-->
 
 ## 文件目录结构
 ```bash

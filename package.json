@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "atomic-algolia": "^0.3.19"
+  },
+  "scripts": {
+    "algolia": "atomic-algolia",
+    "build": "hugo -v --gc --minify",
+    "server": "hugo server -D --disableFastRender --navigateToChanged"
+  }
+}

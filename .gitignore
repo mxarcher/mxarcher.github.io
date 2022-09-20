@@ -1,4 +1,8 @@
 /public/
 /resources/
+/node_modules/
 .directory
 .hugo_build.lock
+.env
+*.log
+

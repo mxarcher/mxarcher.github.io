@@ -1,7 +1,6 @@
 +++
 title = "关于"
 slug = "about"
-aliases = [ "about-us", "about-hugo", "contact" ]
 license = false
 comments = false
 +++

@@ -47,46 +47,71 @@ identifier = "posts"
 # 父级菜单项的标识符 (identifier) since v0.2.14
 parent = ""
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-pre = "<i class='fa-solid fa-archive fa-fw fa-sm'></i>"
+pre = ""
 # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
 post = ""
 name = "文章"
 url = "/posts/"
 title = ""
 weight = 1
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-archive fa-fw fa-sm"
 
 [[languages.zh-cn.menu.main]]
 identifier = "categories"
-pre = "<i class='fa-solid fa-th fa-fw fa-sm'></i>"
+parent = ""
+pre = ""
 post = ""
 name = "分类"
 url = "/categories/"
 title = ""
 weight = 2
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-th fa-fw fa-sm"
 
 [[languages.zh-cn.menu.main]]
 identifier = "tags"
-pre = "<i class='fa-solid fa-tags fa-fw fa-sm'></i>"
+parent = ""
+pre = ""
 post = ""
 name = "标签"
 url = "/tags/"
 title = ""
 weight = 3
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-tags fa-fw fa-sm"
 
 [[languages.zh-cn.menu.main]]
 identifier = "about"
-pre = "<i class='fa-solid fa-info-circle fa-fw fa-sm'></i>"
+parent = ""
+pre = ""
 post = ""
 name = "关于"
 url = "/about/"
 title = ""
 weight = 4
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-info-circle fa-fw fa-sm"
+
+[[languages.zh-cn.menu.main]]
+identifier = "guestbook"
+parent = ""
+pre = ""
+post = ""
+name = "留言"
+url = "/guestbook/"
+title = ""
+weight = 5
+[languages.zh-cn.menu.main.params]
+icon = "fa-solid fa-comments fa-fw fa-sm"
 
 [languages.zh-cn.params]
 # 网站描述
 description = "MXArcher's Blog"
 # 网站关键词
 keywords = ["MXArcher"]
+# 保存阅读进度
+autoBookmark = true
 # 应用图标配置
 [languages.zh-cn.params.app]
 # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
@@ -107,7 +132,7 @@ dark = "#252627"
 [languages.zh-cn.params.search]
 enable = true
 # 搜索引擎的类型 ("lunr", "algolia")
-type = "lunr"
+type = "algolia"
 # 文章内容最长索引长度
 contentLength = 4000
 # 搜索框的占位提示语
@@ -121,9 +146,9 @@ highlightTag = "em"
 # 是否在搜索索引中使用基于 baseURL 的绝对路径
 absoluteURL = false
 [languages.zh-cn.params.search.algolia]
-index = ""
-appID = ""
-searchKey = ""
+index = "index"
+appID = "FQEKGDGGDC"
+searchKey = "16e6e99c067d7b83e01c2dc0d06f9075"
 # 主页信息设置
 [languages.zh-cn.params.home]
 # RSS 文章数目
@@ -134,7 +159,7 @@ enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
 gravatarEmail = ""
 # 主页显示头像的 URL
-avatarURL = "https://s1.ax1x.com/2022/06/28/jeeabn.jpg"
+avatarURL = "https://s1.ax1x.com/2022/09/20/xPoRCd.png"
 # 主页显示的网站标题 (支持 HTML 格式)
 title = "MXArcher's Blog"
 # 主页显示的网站副标题
@@ -325,10 +350,11 @@ wordCount = true
 gov = ""
 # ICP info only in China (HTML format is supported)
 # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-icp = """<a href="https://beian.miit.gov.cn">陕ICP备2021003457号-1</a>"""
+# icp = """<a href="https://beian.miit.gov.cn">陕ICP备2021003457号-1</a>"""
+icp = ""
 # license info (HTML format is supported)
 # 许可协议信息 (支持 HTML 格式)
-license = ''
+license = ""
 
 # Section (all posts) page config
 # Section (所有文章) 页面配置
@@ -389,7 +415,7 @@ fraction = true
 fontawesome = true
 # license info (HTML format is supported)
 # 许可协议信息（支持 HTML 格式）
-license = ''
+license = '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 # whether to show link to Raw Markdown content of the content
 # 是否显示原始 Markdown 文档内容的链接
 linkToMarkdown = true
@@ -691,7 +717,7 @@ images = []
 # 出版者信息
 [params.page.seo.publisher]
 name = "mxarcher"
-logoUrl = "https://s1.ax1x.com/2022/06/28/jeeabn.jpg"
+logoUrl = "https://s1.ax1x.com/2022/09/20/xPoRCd.png"
 
 # TypeIt config
 # TypeIt 配置
@@ -849,7 +875,7 @@ enable = true
 [params.githubCorner]
 enable = true
 permalink = "https://github.com/mxarcher/mxarcher.github.io"
-title = "View source on GitHub"
+title = "博客源代码"
 position = "right"                                           # left, right
 # Gravatar config since v0.2.14
 # Gravatar 设置 since v0.2.14
@@ -921,7 +947,7 @@ endLevel = 5
 [author]
 name = "mxarcher"
 email = "hi@mxarcher.com"
-link = "https://blog.mxarcher.com"
+link = "https://github.com/mxarcher"
 
 # Sitemap config
 # 网站地图配置
@@ -940,7 +966,6 @@ enableDNT = true
 privacyEnhanced = true
 
 [mediaTypes]
-# Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
 [mediaTypes."text/markdown"]
 suffixes = ["md"]
@@ -963,7 +988,7 @@ pages = "/:slug/"
 # 用于 Hugo 输出文档的设置
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-pages = ["HTML", "MarkDown"]
+page = ["HTML", "MarkDown"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
 taxonomyTerm = ["HTML"]
