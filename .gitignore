@@ -1,5 +1,4 @@
 /public/
-/resources/_gen/*
-!/resources/_gen/assets
+/resources/
 .directory
 .hugo_build.lock

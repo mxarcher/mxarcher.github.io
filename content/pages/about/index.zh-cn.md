@@ -1,6 +1,5 @@
 +++
 title = "关于"
-date = "2022-08-27"
 slug = "about"
 aliases = [ "about-us", "about-hugo", "contact" ]
 license = false
