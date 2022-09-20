@@ -132,9 +132,9 @@ rss = 10
 [languages.zh-cn.params.home.profile]
 enable = true
 # Gravatar 邮箱，用于优先在主页显示的头像
-gravatarEmail = "hi@mxarcher.com"
+gravatarEmail = ""
 # 主页显示头像的 URL
-avatarURL = ""
+avatarURL = "https://s1.ax1x.com/2022/06/28/jeeabn.jpg"
 # 主页显示的网站标题 (支持 HTML 格式)
 title = "MXArcher's Blog"
 # 主页显示的网站副标题
@@ -401,7 +401,7 @@ rssFullText = false
 pageStyle = "normal"
 # Gravatar is force-used as the author's avatar since v0.2.14
 # 强制使用 Gravatar 作为作者头像 since v0.2.14
-gravatarForce = true
+gravatarForce = false
 # Repost config since v0.2.15
 # 转载配置 since v0.2.15
 [params.page.repost]
@@ -691,7 +691,7 @@ images = []
 # 出版者信息
 [params.page.seo.publisher]
 name = "mxarcher"
-logoUrl = "https://avatars.githubusercontent.com/u/44336929"
+logoUrl = "https://s1.ax1x.com/2022/06/28/jeeabn.jpg"
 
 # TypeIt config
 # TypeIt 配置
