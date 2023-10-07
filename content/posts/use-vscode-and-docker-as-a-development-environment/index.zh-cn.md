@@ -12,13 +12,16 @@ categories = []
 <!--more-->
 
 ## 文件目录结构
+
 ```bash
 ./.devcontainer
 ├── .devcontainer.json
 ├── docker-compose.yml
 └── Dockerfile
 ```
+
 ## DockerFile 配置
+
 ```DockerFile
 # Dockerfile
 ROM archlinux:latest
@@ -45,7 +48,9 @@ RUN chmod 644 /etc/sudoers
 USER ${USER}
 RUN mkdir -p ${WORKDIR}
 ```
+
 ## docker-compose 文件配置
+
 ```yaml
 # docker-compose.yml
 version: "3.8"
@@ -71,7 +76,9 @@ services:
       # 本文件存放于.devcontainer/中，因而此处要把上级目录(源代码目录)挂载到工作目录
       - ..:/home/mxarcher/projects/
 ```
+
 ## .devcontainer 配置
+
 ```json
 // .devcontainer.json
 {

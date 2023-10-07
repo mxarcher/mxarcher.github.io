@@ -51,6 +51,6 @@
   name = "关于"
   url = "/about/"
   title = ""
-  weight = 3
+  weight = 4
   [main.params]
     icon = "fa-solid fa-info-circle fa-fw fa-sm"

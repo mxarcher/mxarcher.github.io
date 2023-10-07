@@ -1,0 +1,5 @@
+{
+    "markdown.validate.ignoredLinks": [
+        "[hugo-notice](https://github.com/dtomlinson91/hugo-notice-admonition)"
+    ]
+}

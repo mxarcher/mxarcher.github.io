@@ -11,7 +11,7 @@ categories = []
 
 以**管理员身份**启动 PowerShell 7
 
-```powershell 
+```powershell
 wget https://raw.githubusercontent.com/SplitGemini/windowsterminal-shell/master/install.ps1
 .\install.ps1 mini -MenuType OnlyUser
 .\install.ps1 mini -Extended -MenuType OnlyAdmin 
@@ -23,4 +23,4 @@ wget https://raw.githubusercontent.com/SplitGemini/windowsterminal-shell/master/
 
 ![Shift+右键的结果](imgs/shift-right.png)
 
-如果右键菜单下还有在此打开 powershll 窗口等项可以参考 *[Win10 恢复 Shift + 右键菜单 “在此处打开命令窗口” ](https://zhuanlan.zhihu.com/p/38166769)* 去除
+如果右键菜单下还有在此打开 powershell 窗口等项可以参考 *[Win10 恢复 Shift + 右键菜单 “在此处打开命令窗口”](https://zhuanlan.zhihu.com/p/38166769)* 去除
