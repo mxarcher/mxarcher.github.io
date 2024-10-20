@@ -2,7 +2,7 @@
 title = "使用 vscode + docker 作为开发环境"
 date = "2022-09-18T22:12:11+08:00"
 tags = ["vscode","docker","archlinux"]
-categories = []
+categories = ["工具"]
 +++
 
 {{< admonition tip "前言" >}} 

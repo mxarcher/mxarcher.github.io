@@ -2,7 +2,7 @@
 title = "Windows Terminal 右键设置"
 date = "2022-09-19T00:07:03+08:00"
 tags = ["Windows Terminal"]
-categories = []
+categories = ["工具"]
 +++
 
 需要先看这里：[SplitGemini/windowsterminal-shell](https://github.com/SplitGemini/windowsterminal-shell)

@@ -10,7 +10,7 @@
   pre = ""
   # you can add extra information after the name (HTML format is supported), such as icons
   post = ""
-  name = "Archives"
+  name = "归档"
   url = "/archives/"
   # title will be shown when you hover on this menu link
   title = ""
@@ -30,7 +30,7 @@
   parent = ""
   pre = ""
   post = ""
-  name = "Categories"
+  name = "分类"
   url = "/categories/"
   title = ""
   weight = 2
@@ -41,9 +41,20 @@
   parent = ""
   pre = ""
   post = ""
-  name = "Tags"
+  name = "标签"
   url = "/tags/"
   title = ""
   weight = 3
   [main.params]
     icon = "fa-solid fa-tags"
+
+[[main]]
+  identifier = "about"
+  pre = ""
+  post = ""
+  name = "关于"
+  url = "/about/"
+  title = ""
+  weight = 4
+  [main.params]
+    icon = "fa-solid fa-info-circle fa-fw fa-sm"

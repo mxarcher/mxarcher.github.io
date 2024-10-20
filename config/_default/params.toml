@@ -41,7 +41,7 @@ disableThemeInject = false
   name = "MXArcher"
   email = "hi@mxarcher.com"
   link = "https://github.com/mxarcher"
-  avatar = ""
+  avatar = "https://r2.mxarcher.com/logo.png"
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
 [gitInfo]
@@ -363,7 +363,7 @@ disableThemeInject = false
 # FixIt 0.2.12 | NEW PanguJS config
 [pangu]
   # For Chinese writing
-  enable = false
+  enable = true
   selector = "article" # FixIt 0.2.17 | NEW
 
 # FixIt 0.2.12 | NEW Watermark config
@@ -477,7 +477,7 @@ disableThemeInject = false
 
 # FixIt 0.2.16 | NEW Reading progress bar
 [readingProgress]
-  enable = false
+  enable = true
   # Available values: ["left", "right"]
   start = "left"
   # Available values: ["top", "bottom"]
@@ -490,7 +490,7 @@ disableThemeInject = false
 # FixIt 0.2.17 | NEW Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 [pace]
-  enable = false
+  enable = true
   # All available colors:
   # ["black", "blue", "green", "orange", "pink", "purple", "red", "silver", "white", "yellow"]
   color = "blue"
