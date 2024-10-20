@@ -4,6 +4,4 @@
 # -------------------------------------------------------------------------------------
 
 # posts = ":year/:month/:filename"
-posts = "/p/:slug/"
-pages = "/:slug/"
-private = ":sections[1:]/:filename"
+posts = "posts/:slugorfilename"

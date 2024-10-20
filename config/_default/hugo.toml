@@ -1,10 +1,14 @@
+# -------------------------------------------------------------------------------------
 # Hugo Configuration
 # See: https://gohugo.io/getting-started/configuration/
 # -------------------------------------------------------------------------------------
 
 title = "MXArcher's Blog"
 baseURL = "https://blog.mxarcher.com"
-theme = "FixIt"
+theme = [
+  "FixIt",
+  "shortcode-docs-bookmark"
+]
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-cn"
 hasCJKLanguage = true

@@ -1,8 +1,8 @@
 # -------------------------------------------------------------------------------------
-# Author Configuration
+# Taxonomies Configuration
+# See: https://gohugo.io/content-management/taxonomies/#configure-taxonomies
 # -------------------------------------------------------------------------------------
 
-name = "mxarcher"
-email = "hi@mxarcher.com"
-link = "https://github.com/mxarcher"
-avatar = ""
+category = "categories"
+tag = "tags"
+collection = "collections"
