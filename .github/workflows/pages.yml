@@ -53,7 +53,9 @@ jobs:
       
       - name: Publish to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
+        env:
+          BLOG_PROJECT: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name= ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          command: pages deploy public --project-name=$BLOG_PROJECT
