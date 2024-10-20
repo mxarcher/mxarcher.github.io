@@ -20,6 +20,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     permissions:
       contents: read
       deployments: write
@@ -27,13 +29,13 @@ jobs:
     steps:
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0 
           
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -50,11 +52,8 @@ jobs:
           hugo --minify --gc
       
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          directory: 'public'
-            
+          command: pages deploy public --project-name= ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
