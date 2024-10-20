@@ -19,8 +19,8 @@ wget https://raw.githubusercontent.com/SplitGemini/windowsterminal-shell/master/
 
 生成结果如下
 
-![直接右键的结果](imgs/right.png)
+![直接右键的结果](https://r2.mxarcher.com/img/2024/10/6c166f62c13da9fe5ccc975c66a7c9cd.png)
 
-![Shift+右键的结果](imgs/shift-right.png)
+![Shift+右键的结果](https://r2.mxarcher.com/img/2024/10/ceae8d3a95d33ac01f4e2a48321052f2.png)
 
 如果右键菜单下还有在此打开 powershell 窗口等项可以参考 *[Win10 恢复 Shift + 右键菜单 “在此处打开命令窗口”](https://zhuanlan.zhihu.com/p/38166769)* 去除

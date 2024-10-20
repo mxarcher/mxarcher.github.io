@@ -227,7 +227,7 @@ disableThemeInject = false
     # URL of avatar shown in home page
     avatarURL = ""
     # FixIt 0.2.17 | NEW identifier of avatar menu link
-    avatarMenu = "https://s1.ax1x.com/2022/09/20/xPoRCd.png"
+    avatarMenu = "https://r2.mxarcher.com/logo.png"
     # title shown in home page (HTML format is supported)
     title = ""
     # subtitle shown in home page
@@ -823,7 +823,7 @@ disableThemeInject = false
       katex = false
     # FixIt 0.2.14 | NEW Giscus comments config
     [page.comment.giscus]
-      enable = false
+      enable = true
       repo = "mxarcher/mxarcher.github.io"
       repoId = "R_kgDOIBNZKg"
       category = "Announcements"
@@ -834,7 +834,7 @@ disableThemeInject = false
       term = ""
       reactionsEnabled = "1"
       emitMetadata = "0"
-      inputPosition = "bottom" # ["top", "bottom"]
+      inputPosition = "top" # ["top", "bottom"]
       lang = ""
       lightTheme = "light"
       darkTheme = "dark"
@@ -858,4 +858,4 @@ disableThemeInject = false
     # Publisher info
     [page.seo.publisher]
       name = "mxarcher"
-      logoUrl = "https://s1.ax1x.com/2022/09/20/xPoRCd.png"
+      logoUrl = "https://r2.mxarcher.com/logo.png"
