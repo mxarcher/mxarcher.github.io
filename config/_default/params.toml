@@ -828,6 +828,7 @@ disableThemeInject = false
       repoId = "R_kgDOIBNZKg"
       category = "General"
       categoryId = "DIC_kwDOIBNZKs4CRf8F"
+      origin = "https://mxarcher.com"
       mapping = "title"
       strict = "0" # FixIt NEW | 0.2.18
       term = ""
