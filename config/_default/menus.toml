@@ -49,6 +49,18 @@
     icon = "fa-solid fa-tags"
 
 [[main]]
+  identifier = "guestbook"
+  parent = ""
+  pre = ""
+  post = ""
+  name = "留言板"
+  url = "/guestbook/"
+  title = ""
+  weight = 3
+  [main.params]
+    icon = "fa-solid fa-comment"
+
+[[main]]
   identifier = "about"
   pre = ""
   post = ""
