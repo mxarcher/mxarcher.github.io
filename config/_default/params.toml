@@ -826,17 +826,16 @@ disableThemeInject = false
       enable = true
       repo = "mxarcher/mxarcher.github.io"
       repoId = "R_kgDOIBNZKg"
-      category = "Announcements"
+      category = "General"
       categoryId = "DIC_kwDOIBNZKs4CRf8F"
       mapping = "title"
-      origin = "https://blog.mxarcher.com" # FixIt NEW | 0.3.7 Or set it to your self-hosted domain
       strict = "0" # FixIt NEW | 0.2.18
+      term = ""
       reactionsEnabled = "1"
       emitMetadata = "0"
       inputPosition = "top" # ["top", "bottom"]
-      lang = "zh-CN"
       lightTheme = "light"
-      darkTheme = "dark"
+      darkTheme = "dark_dimmed"
       lazyLoad = true
   # Third-party library config
   [page.library]
