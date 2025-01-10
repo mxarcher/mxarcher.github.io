@@ -1,9 +1,9 @@
-+++
-title = "关于"
-slug = "about"
-license = false
-comment = false
-+++
+---
+title: "关于"
+slug: "about"
+license: false
+comment: false
+---
 
 ## 关于我
 

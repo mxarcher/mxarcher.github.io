@@ -1,9 +1,9 @@
-+++
-title = "使用 vscode + docker 作为开发环境"
-date = "2022-09-18T22:12:11+08:00"
-tags = ["vscode","docker","archlinux"]
-categories = ["工具"]
-+++
+---
+title: "使用 vscode + docker 作为开发环境"
+date: "2022-09-18T22:12:11+08:00"
+tags: ["vscode","docker","archlinux"]
+categories: ["工具"]
+---
 
 {{< admonition tip "前言" >}} 
 本文只是对 [使用Docker作为C++开发环境：适用于CLion与VSCode的配置 - 灰格猫的编程日记 (graueneko.com)](https://graueneko.com/archives/64/) 做了适合自己的定制
