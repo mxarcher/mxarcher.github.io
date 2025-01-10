@@ -4,14 +4,14 @@
 # -------------------------------------------------------------------------------------
 
 [[main]]
-  identifier = "archives"
+  identifier = "posts"
   parent = ""
   # you can add extra information before the name (HTML format is supported), such as icons
   pre = ""
   # you can add extra information after the name (HTML format is supported), such as icons
   post = ""
   name = "归档"
-  url = "/archives/"
+  url = "/posts/"
   # title will be shown when you hover on this menu link
   title = ""
   weight = 1

@@ -10,7 +10,7 @@ theme = [
   "shortcode-docs-bookmark"
 ]
 defaultContentLanguage = "zh-cn"
-languageCode = "zh-cn"
+languageCode = "zh-CN"
 hasCJKLanguage = true
 enableRobotsTXT = true
 enableEmoji = true
