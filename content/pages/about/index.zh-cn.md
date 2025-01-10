@@ -2,7 +2,7 @@
 title = "关于"
 slug = "about"
 license = false
-comments = false
+comment = false
 +++
 
 ## 关于我
