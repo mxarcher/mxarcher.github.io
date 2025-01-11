@@ -5,4 +5,4 @@
 
 # posts = ":year/:month/:filename"
 pages = "/:slug/"
-posts = "posts/:slugorfilename/"
+posts = "posts/:year/:month/:slugorfilename/"
