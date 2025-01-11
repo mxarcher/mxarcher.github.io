@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "eliostruyf.vscode-front-matter",
+        "fivethree.vscode-hugo-snippets",
+        "beishanyufu.ime-and-cursor",
+        "yzhang.markdown-all-in-one",
+        "vscodevim.vim",
+        "shd101wyy.markdown-preview-enhanced",
+        "bierner.emojisense",
+    ]
+}

@@ -1,4 +1,8 @@
 {
-    "markdown.validate.ignoredLinks": [
-    ]
+    "markdown.validate.ignoredLinks": [],
+    "[markdown]": {
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
 }
