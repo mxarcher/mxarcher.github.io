@@ -1,0 +1,26 @@
+description = "This is my new Hugo FixIt site"
+keywords = ["Hugo", "FixIt"]
+
+[author]
+name = "mxarcher"
+email = "hi@mxarcher.com"
+link = "https://github.com/mxarcher"
+avatar = ""
+
+[app]
+title = "MXArcher's Blog"
+
+[header]
+
+[header.title]
+logo = ""
+
+[home]
+
+[home.profile]
+enable = false
+
+[customPartials]
+head = [
+  "inject/fixit-docs-bookmark.html",
+]

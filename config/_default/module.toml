@@ -1,12 +1,8 @@
 # -------------------------------------------------------------------------------------
-# Front Matter Configuration
-# See: https://gohugo.io/configuration/front-matter/
+# Modules Configuration
+# See: https://gohugo.io/configuration/module/
 # -------------------------------------------------------------------------------------
 
-_merge = "shallow"
-lastmod = [
-  "lastmod",
-  ":git",
-  ":fileModTime",
-  ":default",
-]
+[hugoVersion]
+extended = true
+min = "0.147.7"

@@ -3,7 +3,6 @@ title: 你好 2025
 description: ""
 date: 2025-01-11T21:57:00+08:00
 preview: ""
-draft: true
 tags:
     - 碎碎念
 categories:
