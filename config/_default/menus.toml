@@ -54,3 +54,14 @@ weight = 3
 
 [main.params]
 icon = "fa-solid fa-tags"
+
+[[main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "关于"
+url = "/p/about/"
+title = ""
+weight = 4
+[main.params]
+icon = "fa-solid fa-info-circle fa-fw fa-sm"
