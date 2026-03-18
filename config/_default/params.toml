@@ -278,10 +278,10 @@ gravatarEmail = "hi@mxarcher.com"
 avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
-# title sown in home page (HTML format is supported)
-title = "Code & Photo"
-# subtitle sown in home page (HTML format is supported)
-subtitle = "随想，随写，随学，随看"
+# title sown in home page(HTML format is supported)
+title = "Code & Photograph"
+# subtitle swn in home page (HTML format is supported)
+subtitle = "AI 最终可以带来什么呢?"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
@@ -839,10 +839,10 @@ readingTime = true
 endFlag = ""
 # FixIt 0.2.18 | NEW whether to enable instant.page
 instantPage = false
-# FixIt 0.3.0 | NEW whether to enable collection list at the sidebar
-collectionList = false
+# FixIt 0.3.0 | NEW hether to enable collection list at the sidebar
+collectionList = true
 # FixIt 0.3.0 | NEW whether to enable collection navigation at the end of the post
-collectionNavigation = false
+collectionNavigation = true 
 
 # FixIt 0.2.15 | NEW Repost config
 [page.repost]

@@ -79,7 +79,7 @@ services:
 
 ## .devcontainer 配置
 
-```json
+```jsonc
 // .devcontainer.json
 {
     "name": "Project Develop Env",
