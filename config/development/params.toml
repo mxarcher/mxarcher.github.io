@@ -18,7 +18,7 @@ logo = ""
 [home]
 
 [home.profile]
-enable = false
+enable = true 
 
 [customPartials]
 head = [

@@ -13,13 +13,13 @@ keywords = []
 defaultTheme = "auto"
 # which hash function used for SRI, when empty, no SRI is used
 # ["sha256", "sha384", "sha512", "md5"]
-fingerprint = "md5"
+fingerprint = "sha256"
 # date format
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 images = []
 # FixIt 0.2.12 | NEW enable PWA
-enablePWA = false
+enablePWA = true 
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
 externalIcon = true
 # FixIt 0.3.13 | NEW whether to capitalize titles
@@ -269,17 +269,17 @@ orderby = "name" # Order of tags, optional values: ["name", "count"]
 
 # Home page profile
 [home.profile]
-enable = false
+enable = true 
 # FixIt 0.4.0 | NEW Whether to show profile and content only in the first home page
 onlyFirstPage = false
 # Gravatar Email for preferred avatar in home page
-gravatarEmail = ""
+gravatarEmail = "hi@mxarcher.com"
 # URL of avatar shown in home page, default is author's avatar
 avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
 # title shown in home page (HTML format is supported)
-title = ""
+title = "damn"
 # subtitle shown in home page (HTML format is supported)
 subtitle = ""
 # whether to use typeit animation for subtitle
@@ -384,7 +384,7 @@ TikTok = ""
 Credly = ""
 Bluesky = ""
 Phone = ""
-Email = ""
+Email = "hi@mxarcher.com"
 RSS = true
 
 # custom social links like the following
@@ -611,8 +611,8 @@ enable = true
 scrollpercent = false
 
 # FixIt 0.2.16 | NEW Reading progress bar
-[readingProgress]
-enable = false
+[readingProress]
+enable = true 
 # Available values: ["left", "right"]
 start = "left"
 # Available values: ["top", "bottom"]
@@ -706,7 +706,7 @@ userId = ""
 # cache remote images for better optimisations
 cacheRemote = false
 # Image resizing and optimisation (may slow builds)
-optimise = false
+optimise = true 
 # FixIt 0.4.0 | NEW A list of image file names or patterns to exclude from optimisation
 # e.g. ["no-optimize.jpg", "*.tiff", "images/exclude-*.webp"]
 blackList = []
@@ -828,7 +828,7 @@ linkToVscode = true
 pageStyle = "normal"
 # FixIt 0.2.17 | CHANGED Auto Bookmark Support
 # If true, save the reading progress when closing the page.
-autoBookmark = false
+autoBookmark =true 
 # FixIt 0.4.0 | NEW whether to show the last modified time
 showLastmod = true
 # FixIt 0.2.17 | NEW whether to enable wordCount
@@ -868,7 +868,7 @@ decreaseH1 = false
 
 # FixIt 0.2.13 | NEW Display a message at the beginning of an article to warn the reader that its content might be expired
 [page.expirationReminder]
-enable = false
+enable = true 
 # Display the reminder if the last modified time is more than 90 days ago
 reminder = 90
 # Display warning if the last modified time is more than 180 days ago
@@ -1008,12 +1008,12 @@ mode = "static"
 [page.share]
 enable = true
 Twitter = true
-Facebook = true
+Facebook =false 
 Linkedin = false
 Whatsapp = false
 Pinterest = false
 Tumblr = false
-HackerNews = false
+HackerNews = true
 Reddit = false
 VK = false
 Buffer = false
@@ -1034,7 +1034,7 @@ Mix = false
 
 # FixIt 0.2.15 | CHANGED Comment config
 [page.comment]
-enable = false
+enable = true 
 
 # FixIt 0.2.13 | NEW Artalk comment config (https://artalk.js.org/)
 [page.comment.artalk]
