@@ -278,10 +278,10 @@ gravatarEmail = "hi@mxarcher.com"
 avatarURL = ""
 # FixIt 0.2.17 | NEW identifier of avatar menu link
 avatarMenu = ""
-# title shown in home page (HTML format is supported)
-title = "damn"
-# subtitle shown in home page (HTML format is supported)
-subtitle = ""
+# title sown in home page (HTML format is supported)
+title = "Code & Photo"
+# subtitle sown in home page (HTML format is supported)
+subtitle = "随想，随写，随学，随看"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
